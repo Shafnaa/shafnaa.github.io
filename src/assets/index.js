@@ -16,22 +16,23 @@ import srt from "./company/srt.png";
 import altek from "./company/altek.jpg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
+import python from "./tech/python.svg";
+import golang from "./tech/golang.svg";
+import cpp from "./tech/cpp.svg";
 import mongodb from "./tech/mongodb.png";
+import mysql from "./tech/mysql.svg";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import nextjs from "./tech/nextjs.svg";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 
 import websrt from "./websrt.png";
-// import jobit from "./jobit.png";
-// import tripguide from "./tripguide.png";
 
 export {
   backend,
@@ -48,20 +49,20 @@ export {
   srt,
   altek,
   css,
-  docker,
   figma,
   git,
   html,
   javascript,
+  python,
+  golang,
+  cpp,
   mongodb,
+  mysql,
   nodejs,
   reactjs,
+  nextjs,
   redux,
   tailwind,
   typescript,
-  threejs,
   websrt,
-  //   carrent,
-  //   jobit,
-  //   tripguide,
 };

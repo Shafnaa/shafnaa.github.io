@@ -11,7 +11,6 @@ import {
   github,
   instagram,
   css,
-  docker,
   figma,
   git,
   html,
@@ -22,8 +21,12 @@ import {
   redux,
   tailwind,
   typescript,
-  threejs,
   websrt,
+  nextjs,
+  python,
+  golang,
+  mysql,
+  cpp,
 } from "../assets";
 
 export const navLinks = [
@@ -133,11 +136,11 @@ const organizational = [
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "HTML",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS",
     icon: css,
   },
   {
@@ -149,8 +152,24 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Go",
+    icon: golang,
+  },
+  {
+    name: "C++",
+    icon: cpp,
+  },
+  {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "Redux Toolkit",
@@ -169,8 +188,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "MySQL",
+    icon: mysql,
   },
   {
     name: "git",
@@ -179,10 +198,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 

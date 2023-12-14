@@ -7,6 +7,7 @@ import {
   Organization,
   Tech,
   Works,
+  Contact,
 } from "./components";
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
         <Organization />
         <Tech />
         <Works />
+        <Contact />
       </div>
     </BrowserRouter>
   );

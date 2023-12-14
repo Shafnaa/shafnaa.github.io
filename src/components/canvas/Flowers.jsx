@@ -837,7 +837,7 @@ class Generator {
       antialias: true,
     });
 
-    document.body.appendChild(this.renderer.domElement);
+    return this.renderer.domElement;
   }
 
   setupOrbit() {
